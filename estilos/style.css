@@ -54,7 +54,7 @@ aside>h1{
 }
 header > p.estrategia {
     color: var(--colorb);
-    margin-top: -312px;
+    margin-top: -303px;
     padding-top: 35px;
     margin-left: 50%;
     width: 30vw;
@@ -80,7 +80,7 @@ header >p.responsivos{
     color: var(--colorb);
     margin-top: 53px;
     padding-top: 39px;
-    margin-left: 60%;
+    margin-left: 70%;
     width: 30vw;
     height: 12vh;
     border-radius: 7px;
@@ -104,9 +104,9 @@ header> p#wallpper{
 }
 header >p.bug{
     color: var(--colorb);
-    margin-top: 53px;
+    margin-top: 23px;
     padding-top: 39px;
-    margin-left: 165px;
+    margin-left: 50%;
     width: 30vw;
     height: 12vh;
     border-radius: 7px;
