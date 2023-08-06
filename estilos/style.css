@@ -47,7 +47,7 @@ aside>h1.titulo{
     margin-bottom: -500px;
     color: azure;
     padding-right: 190px;
-    margin-left: 1px;
+    margin-left: 10vw;
     padding-left: -10px;
     font-family: var(--font1);
     font-size: 20px;
@@ -69,16 +69,16 @@ header > p>span.material-symbols-outlined{
     color: var(--colorb);
     margin-top: -410px;
     padding-top: 3px;
-    margin-left: 10px;
-    width: 50px;
-    height: 40px;
+    margin-left: 15px;
+    width: 10vw;
+    height: 7vh;
     font-size: 35px;
     background-color: rgba(128, 128, 128, 0.342);
     border-radius: 10px;
 }
 header >p.responsivos{
     color: var(--colorb);
-    margin-top: 30px;
+    margin-top: 53px;
     padding-top: 39px;
     margin-left: 70%;
     width: 30vw;
@@ -94,8 +94,8 @@ header> p#wallpper{
     margin-top: -430px;
     padding-top: 30px;
     margin-left: 162px;
-    width: 150px;
-    height: 70px;
+    width: 10vw;
+    height: 7vh;
     border-radius: 7px;
     background-color: black;
     text-align: center;
@@ -119,9 +119,9 @@ header> p#bug{
     color: var(--colorb);
     margin-top: -430px;
     padding-top: 30px;
-    margin-left: 162px;
-    width: 150px;
-    height: 70px;
+    margin-left: 155px;
+    width: 10vw;
+    height: 7vh;
     border-radius: 7px;
     background-color: black;
     text-align: center;
@@ -146,14 +146,16 @@ article>p{
 }
 aside#img2{
     background: url("../imagens/imgHeader.png") no-repeat;
-    background-position: center center;
+    background-position: center bottom;
     background-attachment: fixed;
     background-size: cover;
     display: block;
     margin-top: 0px;
     padding-top: 0px;
+    margin-bottom: 0px;
     }
 aside.logo{
+    margin-bottom: 0px;
     padding-top: 0px;
     margin-top: 0px;
     border-radius: 10px;
