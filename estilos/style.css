@@ -54,7 +54,7 @@ header>h1{
 }
 header > p.estrategia {
     color: var(--colorb);
-    margin-top: -430px;
+    margin-top: -382px;
     padding-top: 35px;
     margin-left: 162px;
     width: 150px;
@@ -80,7 +80,7 @@ header >p.responsivos{
     color: var(--colorb);
     margin-top: -0px;
     padding-top: 35px;
-    margin-left: 162px;
+    margin-left: 274px;
     width: 150px;
     height: 70px;
     border-radius: 7px;
