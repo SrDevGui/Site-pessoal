@@ -14,7 +14,8 @@
     --color4:#BFB195;
     --color5:#F2DCC2;
 } 
-@media screen and (min-width: 320px) and (max-width:480px) {
+
+/*@media screen and (min-width: 320px) and (max-width:480px) {*/
     
 *{
     width:100vw;
@@ -37,7 +38,7 @@ header{
     padding-top: 10px;
     margin-bottom: -100px;
     padding-bottom: 0px;
-
+    margin-top: -64px;
 }
 header>h1{
     margin-top: -100px;
@@ -77,7 +78,7 @@ header > p>span.material-symbols-outlined{
 }
 header >p.responsivos{
     color: var(--colorb);
-    margin-top: -430px;
+    margin-top: -0px;
     padding-top: 35px;
     margin-left: 162px;
     width: 150px;
@@ -87,6 +88,19 @@ header >p.responsivos{
     text-align: center;
     font-size: 12px;
     font-family: var(--font0);
+}
+header> p#wallpper{
+    color: var(--colorb);
+    margin-top: -430px;
+    padding-top: 35px;
+    margin-left: 162px;
+    width: 150px;
+    height: 70px;
+    border-radius: 7px;
+    background-color: black;
+    text-align: center;
+    font-size: 12px;
+    font-family: var(--font0); 
 }
 header>nav{
     padding-top: 20px;
@@ -110,12 +124,15 @@ aside#img2{
     background-attachment: fixed;
     background-size: cover;
     display: block;
+    margin-top: 0px;
+    padding-top: 0px;
     }
 aside.logo{
+    padding-top: 0px;
+    margin-top: 0px;
     border-radius: 10px;
     width: 100vw;
     height: 80vh;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.37);
    
-}
 }
