@@ -1,9 +1,33 @@
 @charset "UTF-8";
 
-@media screen and (min-width:460px) and (max-width: 992px) {
-    
-    header>h1{
+@media screen and (min-width:481px) and (max-width: 768px) {
+
+    header>h1 {
         margin-left: -43px;
         margin-top: -40px;
     }
- }
+
+    aside>h1.titulo {
+        margin-left: 4vw;
+        background-color: black;
+    }
+
+    header>p.estrategia {
+        margin-left: 60%;
+        margin-top: -272px;
+    }
+
+    header>p.responsivos {
+        margin-left: 75%;
+        margin-top: 15px;
+    }
+
+    header>p.bug {
+        margin-left: 60%;
+        margin-top: 15px;
+    }
+
+    aside.logo {
+        height: 56vh;
+    }
+}
