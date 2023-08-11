@@ -1,29 +1,30 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-:root{
-    --font0:Verdana, Geneva, Tahoma, sans-serif;
-    --font1:'Poppins';
-    --font3:'Russo One';
-    --colorb:black;
-    --colorw:white;
+
+:root {
+    --font0: Verdana, Geneva, Tahoma, sans-serif;
+    --font1: 'Poppins';
+    --font3: 'Russo One';
+    --colorb: black;
+    --colorw: white;
     --color0: rgba(75, 75, 197, 0.767);
-    --color1:#012E40;
-    --color2:#024959;
-    --color3:#026873;
-    --color4:#BFB195;
-    --color5:#F2DCC2;
-} 
+    --color1: #012E40;
+    --color2: #024959;
+    --color3: #026873;
+    --color4: #BFB195;
+    --color5: #F2DCC2;
+}
 
 /*@media screen and (min-width: 320px) and (max-width:480px) {*/
-    
-*{
-    width:100vw;
+* {
+    width: 100vw;
     height: 100vh;
     box-sizing: border-box;
-    
 }
-body, html{
+
+body,
+html {
     background-color: var(--color2);
     margin: 0px;
     height: 100vh;
@@ -31,7 +32,8 @@ body, html{
     overflow-x: hidden;
     margin-bottom: 0px;
 }
-header{
+
+header {
     background-color: var(--color3);
     width: 100vw;
     height: 100vh;
@@ -41,9 +43,10 @@ header{
     padding-bottom: 0px;
     margin-top: -64px;
 }
- aside>h1.titulo{
+
+aside>h1.titulo {
     margin-top: 0px;
-    padding-top: 163px;
+    padding-top: 44px;
     padding-bottom: -0px;
     margin-bottom: -0px;
     color: rgba(250, 88, 12, 0.986);
@@ -53,9 +56,10 @@ header{
     font-family: var(--font1);
     font-size: 20px;
 }
-header > p.estrategia {
+
+header>p.estrategia {
     color: var(--colorb);
-    margin-top: -387px;
+    margin-top: -455px;
     padding-top: 35px;
     margin-left: 50%;
     width: 30vw;
@@ -66,7 +70,8 @@ header > p.estrategia {
     font-size: 12px;
     font-family: var(--font0);
 }
-header > p>span.material-symbols-outlined{
+
+header>p>span.material-symbols-outlined {
     color: var(--colorb);
     margin-top: -410px;
     padding-top: 3px;
@@ -77,9 +82,10 @@ header > p>span.material-symbols-outlined{
     background-color: rgba(128, 128, 128, 0.342);
     border-radius: 10px;
 }
-header >p.responsivos{
+
+header>p.responsivos {
     color: var(--colorb);
-    margin-top: 53px;
+    margin-top: 19px;
     padding-top: 39px;
     margin-left: 65%;
     width: 30vw;
@@ -90,7 +96,8 @@ header >p.responsivos{
     font-size: 10px;
     font-family: var(--font0);
 }
-header> p#wallpper{
+
+header>p#wallpper {
     color: var(--colorb);
     margin-top: -430px;
     padding-top: 30px;
@@ -101,9 +108,10 @@ header> p#wallpper{
     background-color: black;
     text-align: center;
     font-size: 12px;
-    font-family: var(--font0); 
+    font-family: var(--font0);
 }
-header >p.bug{
+
+header>p.bug {
     color: var(--colorb);
     margin-top: 23px;
     padding-top: 39px;
@@ -116,7 +124,8 @@ header >p.bug{
     font-size: 10px;
     font-family: var(--font0);
 }
-header> p#bug{
+
+header>p#bug {
     color: var(--colorb);
     margin-top: -430px;
     padding-top: 30px;
@@ -127,25 +136,30 @@ header> p#bug{
     background-color: black;
     text-align: center;
     font-size: 12px;
-    font-family: var(--font0); 
+    font-family: var(--font0);
 }
-header>nav{
+
+header>nav {
     padding-top: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-nav>a{
-padding: 10px;
-text-decoration: none;
-color: var(--colorw);
+
+nav>a {
+    padding: 10px;
+    text-decoration: none;
+    color: var(--colorw);
 }
-main{
+
+main {
     background-color: var(--color4);
 }
-article>p{
+
+article>p {
     text-align: justify;
 }
-aside#img2{
+
+aside#img2 {
     background: url("../imagens/imgHeader.png") no-repeat;
     background-position: center bottom;
     background-attachment: fixed;
@@ -154,8 +168,9 @@ aside#img2{
     margin-top: 0px;
     padding-top: 0px;
     margin-bottom: 0px;
-    }
-aside.logo{
+}
+
+aside.logo {
     margin-bottom: 0px;
     padding-top: 0px;
     margin-top: 0px;
@@ -163,5 +178,4 @@ aside.logo{
     width: 100vw;
     height: 77vh;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.37);
-   
 }
