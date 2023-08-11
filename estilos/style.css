@@ -46,7 +46,7 @@ header {
 
 aside>h1.titulo {
     margin-top: 0px;
-    padding-top: 123px;
+    padding-top: 75px;
     padding-bottom: -0px;
     margin-bottom: -0px;
     color: rgba(250, 88, 12, 0.986);
@@ -55,14 +55,17 @@ aside>h1.titulo {
     padding-left: -10px;
     font-family: var(--font1);
     font-size: 20px;
+    width: 78vw;
+    height: 10vh;
+    background-color: azure;
 }
 
 header>p.estrategia {
     color: var(--colorb);
-    margin-top: -455px;
+    margin-top: -267px;
     padding-top: 35px;
     margin-left: 50%;
-    width: 30vw;
+    width: 21vw;
     height: 12vh;
     border-radius: 7px;
     background-color: rgba(255, 255, 255, 0.705);
@@ -85,10 +88,10 @@ header>p>span.material-symbols-outlined {
 
 header>p.responsivos {
     color: var(--colorb);
-    margin-top: 19px;
+    margin-top: -11px;
     padding-top: 39px;
     margin-left: 65%;
-    width: 30vw;
+    width: 22vw;
     height: 12vh;
     border-radius: 7px;
     background-color: rgba(255, 255, 255, 0.705);
@@ -113,10 +116,10 @@ header>p#wallpper {
 
 header>p.bug {
     color: var(--colorb);
-    margin-top: 23px;
+    margin-top: -8px;
     padding-top: 39px;
     margin-left: 50%;
-    width: 30vw;
+    width: 20vw;
     height: 12vh;
     border-radius: 7px;
     background-color: rgba(255, 255, 255, 0.705);
@@ -174,6 +177,6 @@ aside.logo {
     margin-top: 0px;
     border-radius: 10px;
     width: 100vw;
-    height: 77vh;
+    height: 56vh;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.37);
 }
