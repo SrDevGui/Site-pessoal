@@ -34,14 +34,9 @@ html {
 }
 
 header {
-    background-color: var(--color3);
     width: 100vw;
-    height: 100vh;
     text-align: center;
     padding-top: 10px;
-    margin-bottom: -100px;
-    padding-bottom: 0px;
-    margin-top: -64px;
 }
 
 aside>h1.titulo {
@@ -162,11 +157,6 @@ nav>a {
     color: var(--colorw);
 }
 
-aside {
-    width: 100vw;
-    margin-top: 0px;
-}
-
 aside#img2 {
     background: url("../imagens/imgHeader.png") no-repeat;
     background-position: center bottom;
@@ -207,6 +197,7 @@ article>h1 {
 
 section {
     margin-top: 10px;
+    margin-bottom: 200px;
 
 }
 
@@ -218,7 +209,8 @@ main {
     margin-top: -561px;
     width: 90vw;
     border-radius: 10px;
-
+    margin-bottom: 200px;
+    height: 200vh;
 }
 
 p.apresentacao {
@@ -226,7 +218,71 @@ p.apresentacao {
     background-color: blue;
     width: 80vw;
     height: 35vh;
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 5px;
+    margin-bottom: 10px;
+}
 
+article>h2 {
+    font-family: var(--font1);
+    margin-top: 92px;
+    margin-bottom: 20px;
+    width: 100vw;
+    color: red;
+    background-color: gray;
+    width: 80vw;
+    height: 5vh;
+    text-align: center;
+    border-radius: 10px;
+}
+
+p.linguagens1 {
+    margin-top: -242px;
+    background-color: rgba(0, 0, 255, 0.39);
+    width: 80vw;
+    height: 15vh;
+    margin-bottom: 10px;
+}
+
+aside.img2 {
+    background: url(../imagens/linguagens_redimensionadas.png) no-repeat;
+    background-size: contain;
+    margin-top: 40px;
+}
+
+aside#imagem2 {
+    width: 80vw;
+    height: 40vh;
+    margin-top: 30px;
+}
+
+p.segundop {
+    margin-top: 80px;
+    background-color: rgba(0, 0, 255, 0.548);
+    width: 80vw;
+    height: 15vh;
+}
+
+p.terceirop {
+    margin-top: -3px;
+    background-color: rgba(0, 0, 255, 0.548);
+    width: 80vw;
+    height: 15vh;
+}
+
+p.quartop {
+    margin-top: -3px;
+    background-color: rgba(0, 0, 255, 0.548);
+    width: 80vw;
+    height: 15vh;
+}
+
+p.quintop {
+    margin-top: 18px;
+    background-color: rgba(0, 0, 255, 0.548);
+    width: 80vw;
+    height: 15vh;
 }
 
 main>section>aside>p {
