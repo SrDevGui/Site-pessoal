@@ -8,8 +8,9 @@
     }
 
     aside>h1.titulo {
-        margin-left: 4vw;
+        margin-left: 14vw;
         background-color: black;
+        padding-top: 98px;
     }
 
     header>p.estrategia {
@@ -29,5 +30,10 @@
 
     aside.logo {
         height: 56vh;
+    }
+
+    header>nav {
+        margin-top: -7px;
+        padding-top: 0px;
     }
 }
