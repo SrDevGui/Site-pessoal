@@ -4,9 +4,12 @@
 
     header>h1.titulo {
         margin-left: 10vw;
-        background-color: black;
         padding-top: 0px;
-        width: 34vw;
+        width: 68vw;
+    }
+
+    article>h2 {
+        margin-top: 51px;
     }
 
     header>p.estrategia {

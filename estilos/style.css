@@ -52,7 +52,6 @@ header>h1.titulo {
     font-size: 20px;
     width: 78vw;
     height: 10vh;
-    background-color: azure;
     margin-bottom: 0px;
 
 }
@@ -260,8 +259,8 @@ aside#imagem2 {
 }
 
 p.segundop {
-    margin-top: -85px;
-    margin-bottom: 20px;
+    margin-top: -61px;
+    margin-bottom: -1px;
     background-color: rgba(0, 0, 255, 0.548);
     width: 80vw;
     height: 21vh;
