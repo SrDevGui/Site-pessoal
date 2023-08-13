@@ -2,20 +2,16 @@
 
 @media screen and (min-width:481px) and (max-width: 768px) {
 
-    header>h1 {
-        margin-left: -43px;
-        margin-top: -40px;
-    }
-
-    aside>h1.titulo {
-        margin-left: 14vw;
+    header>h1.titulo {
+        margin-left: 10vw;
         background-color: black;
-        padding-top: 98px;
+        padding-top: 0px;
+        width: 34vw;
     }
 
     header>p.estrategia {
         margin-left: 60%;
-        margin-top: -272px;
+        margin-top: -133px;
     }
 
     header>p.responsivos {
@@ -37,3 +33,62 @@
         padding-top: 0px;
     }
 }
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+    main {
+        width: 70vw;
+        text-align: center;
+        margin-left: 126px;
+    }
+
+    article>aside.img2 {
+        margin-left: -53px;
+        margin-top: -5px;
+        margin-bottom: 20px;
+        width: 70vw;
+
+    }
+
+    article>h1 {
+        width: 67vw;
+    }
+
+    article>h2 {
+        margin-top: 14px;
+        width: 67vw;
+
+    }
+
+    p.apresentacao {
+        width: 67vw;
+    }
+
+    p.segundop {
+        width: 67vw;
+    }
+
+    p.terceirop {
+        margin-top: -25px;
+        width: 67vw;
+
+    }
+
+    p.quartop {
+        margin-top: -25px;
+        width: 67vw;
+        height: 18vh;
+    }
+
+    p.quintop {
+        margin-top: -25px;
+        width: 67vw;
+
+    }
+
+    p.linguagens1 {
+        width: 67vw;
+    }
+
+}
+
+@media screen and (min-width:1025) {}
