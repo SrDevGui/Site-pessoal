@@ -45,6 +45,10 @@
         margin-left: 126px;
     }
 
+    header>h1.titulo {
+        font-size: 30px;
+    }
+
     article>aside.img2 {
         margin-left: -53px;
         margin-top: -5px;
@@ -95,4 +99,51 @@
 
 }
 
-@media screen and (min-width:1025) {}
+@media screen and (min-width:1025px) {
+    header>h1.titulo {
+        font-size: 30px;
+        margin-left: -10px;
+    }
+
+    main {
+        margin-left: 68px;
+    }
+
+    header>nav {
+        padding: 10px;
+    }
+
+    article {
+        margin-left: 52px;
+    }
+
+    section>article>div.perfil {
+        background-image: url("../imagens/perfil.jpeg") no-repeat;
+        background-position: center bottom;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 60vw;
+        height: 40vh;
+    }
+
+
+    header>p.estrategia {
+        width: 14vw;
+        height: 12vh;
+    }
+
+    header>p>span.material-symbols-outlined {
+        width: 8vw;
+        height: 7vh;
+    }
+
+    header>p.responsivos {
+        width: 14vw;
+        height: 12vh;
+    }
+
+    header>p.bug {
+        width: 14vw;
+        height: 12vh;
+    }
+}
