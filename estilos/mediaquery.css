@@ -39,6 +39,7 @@
 
 @media screen and (min-width: 769px) and (max-width:1024px) {
     main {
+
         width: 70vw;
         text-align: center;
         margin-left: 126px;
@@ -57,7 +58,7 @@
     }
 
     article>h2 {
-        margin-top: 14px;
+        margin-top: -40px;
         width: 67vw;
 
     }

@@ -213,7 +213,6 @@ main {
 
 p.apresentacao {
     margin-top: 20px;
-    background-color: blue;
     width: 80vw;
     height: 35vh;
     text-align: justify;
@@ -238,7 +237,6 @@ article>h2 {
 
 p.linguagens1 {
     margin-top: 3px;
-    background-color: rgba(0, 0, 255, 0.39);
     width: 80vw;
     height: 15vh;
     margin-bottom: 10px;
@@ -261,28 +259,24 @@ aside#imagem2 {
 p.segundop {
     margin-top: -61px;
     margin-bottom: -1px;
-    background-color: rgba(0, 0, 255, 0.548);
     width: 80vw;
     height: 21vh;
 }
 
 p.terceirop {
     margin-top: 15px;
-    background-color: rgba(0, 0, 255, 0.548);
     width: 80vw;
     height: 15vh;
 }
 
 p.quartop {
     margin-top: -3px;
-    background-color: rgba(0, 0, 255, 0.548);
     width: 80vw;
     height: 29vh;
 }
 
 p.quintop {
     margin-top: 20px;
-    background-color: rgba(0, 0, 255, 0.548);
     width: 80vw;
     height: 15vh;
 }
