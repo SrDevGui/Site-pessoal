@@ -44,7 +44,7 @@ header>h1.titulo {
     padding-top: 0px;
     padding-bottom: -0px;
     margin-bottom: -0px;
-    color: green;
+    color: var(--colorw);
     padding-right: 154px;
     margin-left: 10vw;
     padding-left: -10px;
@@ -58,7 +58,7 @@ header>h1.titulo {
 
 header>p.estrategia {
     color: var(--colorb);
-    margin-top: -123px;
+    margin-top: -22vh;
     padding-top: 35px;
     margin-left: 60%;
     width: 21vw;
@@ -138,16 +138,16 @@ header>p#bug {
     font-family: var(--font0);
 }
 
-nav {
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-
 header>nav {
     padding-top: 13px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-bottom: 0px;
+    text-shadow: 10px solid rgba(0, 0, 0, 0.548);
+    background-color: rgba(0, 0, 0, 0.164);
+    width: 100vw;
+    height: 5vh;
+    border-radius: 10px;
 }
 
 nav>a {
@@ -161,7 +161,6 @@ aside#imgHeader {
     background-position: center bottom;
     background-attachment: fixed;
     background-size: cover;
-    display: block;
     margin-bottom: 0px;
 }
 
@@ -185,8 +184,8 @@ article>h1 {
     font-family: var(--font1);
     margin-top: -15px;
     margin-bottom: 20px;
-    color: red;
-    background-color: gray;
+    color: var(--colorw);
+    background-color: var(--color1);
     width: 80vw;
     height: 5vh;
     text-align: center;
@@ -227,8 +226,8 @@ article>h2 {
     margin-top: 92px;
     margin-bottom: 20px;
     width: 100vw;
-    color: red;
-    background-color: gray;
+    color: var(--colorw);
+    background-color: var(--color1);
     width: 80vw;
     height: 5vh;
     text-align: center;

@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (min-width:481px) and (max-width: 768px) {
+    main {
+        margin-top: -43vh;
+
+    }
 
     header>h1.titulo {
         margin-left: 10vw;
@@ -14,7 +18,7 @@
 
     header>p.estrategia {
         margin-left: 60%;
-        margin-top: -133px;
+        margin-top: -28vh;
     }
 
     header>p.responsivos {
@@ -32,7 +36,7 @@
     }
 
     header>nav {
-        margin-top: -7px;
+        margin-top: 1.2vh;
         padding-top: 0px;
     }
 }
@@ -113,13 +117,38 @@
 
     }
 
+    p.linguagens1 {
+        font-size: 20px;
+
+    }
+
+    p.segundop {
+        font-size: 20px;
+
+    }
+
+    p.terceirop {
+        font-size: 20px;
+
+    }
+
+    p.quartop {
+        font-size: 20px;
+
+    }
+
+    p.quintop {
+        font-size: 20px;
+
+    }
+
     header>h1.titulo {
         font-size: 30px;
         margin-left: -10px;
     }
 
     main {
-        margin-top: -280px;
+        margin-top: -43vh;
         margin-left: 68px;
     }
 
@@ -146,7 +175,7 @@
 
 
     header>p.estrategia {
-        margin-top: -158px;
+        margin-top: -24vh;
         width: 14vw;
         height: 12vh;
     }
