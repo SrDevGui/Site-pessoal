@@ -58,8 +58,8 @@ header>h1.titulo {
 
 header>p.estrategia {
     color: var(--colorb);
-    margin-top: -22vh;
-    padding-top: 35px;
+    margin-top: -25vh;
+    padding-top: 6vh;
     margin-left: 60%;
     width: 21vw;
     height: 12vh;
@@ -139,8 +139,8 @@ header>p#bug {
 }
 
 header>nav {
-    padding-top: 13px;
-    margin-top: 10px;
+    padding-top: 1vh;
+    margin-top: 6vh;
     margin-bottom: 10px;
     padding-bottom: 0px;
     text-shadow: 10px solid rgba(0, 0, 0, 0.548);
@@ -203,7 +203,7 @@ main {
     padding: 20px;
     margin-left: 24px;
     margin-right: 5px;
-    margin-top: -225px;
+    margin-top: -43vh;
     width: 90vw;
     border-radius: 10px;
     margin-bottom: 200px;
