@@ -141,7 +141,7 @@ header>p#bug {
 header>nav {
     padding-top: 1vh;
     margin-top: 6vh;
-    margin-bottom: 10px;
+    margin-bottom: 1vh;
     padding-bottom: 0px;
     text-shadow: 10px solid rgba(0, 0, 0, 0.548);
     background-color: rgba(0, 0, 0, 0.164);
@@ -151,7 +151,7 @@ header>nav {
 }
 
 nav>a {
-    padding: 10px;
+    padding: 1.5vw;
     text-decoration: none;
     color: var(--colorw);
 }
