@@ -44,7 +44,7 @@ header>h1.titulo {
     padding-top: 0px;
     padding-bottom: -0px;
     margin-bottom: -0px;
-    color: var(--colorw);
+    color: var(--colorb);
     padding-right: 154px;
     margin-left: 10vw;
     padding-left: -10px;
@@ -157,8 +157,8 @@ nav>a {
 }
 
 aside#imgHeader {
-    background: url("../imagens/imgHeader.png") no-repeat;
-    background-position: center bottom;
+    background: url("../imagens/notebook.png") no-repeat;
+    background-position: center center;
     background-attachment: fixed;
     background-size: cover;
     margin-bottom: 0px;
@@ -201,8 +201,8 @@ section {
 main {
     background-color: var(--color4);
     padding: 2vh;
-    margin-left: 4vh;
-    margin-right: 4vh;
+    margin-left: 5vw;
+    margin-right: 4vw;
     margin-top: -43vh;
     width: 90vw;
     border-radius: 10px;
@@ -211,13 +211,13 @@ main {
 }
 
 p.apresentacao {
-    margin-top: 20px;
+    margin-top: -2vh;
     width: 80vw;
     height: 35vh;
     text-align: justify;
     line-height: 1.5em;
     text-indent: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 1vh;
     padding-top: 0px;
 }
 
@@ -294,7 +294,7 @@ section>article>aside.perfil {
     height: 37vh;
     background-color: #BFB195;
     margin-top: 4vh;
-    margin-bottom: -17vh;
+    margin-bottom: -15vh;
     margin-left: 27vw;
     border-radius: 44px;
 
