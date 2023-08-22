@@ -39,6 +39,31 @@
         margin-top: 1.2vh;
         padding-top: 0px;
     }
+
+    p.apresentacao {
+        margin-top: 20px;
+        width: 64vw;
+        height: 35vh;
+        text-align: justify;
+        line-height: 1.5em;
+        text-indent: 5px;
+        margin-bottom: 10px;
+        padding-top: 0px;
+    }
+
+    section>article>aside.perfil {
+        background: url("../imagens/perfil.jpeg") no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 19vw;
+        height: 36vh;
+        background-color: #BFB195;
+        margin-top: -40vh;
+        margin-bottom: 7vh;
+        margin-left: 66vw;
+        border-radius: 44px;
+
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width:1024px) {
@@ -72,7 +97,7 @@
     }
 
     p.apresentacao {
-        width: 67vw;
+        width: 48vw;
     }
 
     p.segundop {
@@ -101,6 +126,19 @@
         width: 67vw;
     }
 
+    section>article>aside.perfil {
+        background: url("../imagens/perfil.jpeg") no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 14vw;
+        height: 39vh;
+        background-color: #BFB195;
+        margin-top: -40vh;
+        margin-bottom: 7vh;
+        margin-left: 51vw;
+        border-radius: 49px;
+
+    }
 }
 
 @media screen and (min-width:1025px) {
@@ -114,7 +152,6 @@
         margin-bottom: 10px;
         padding-top: 0px;
         font-size: 20px;
-
     }
 
     p.linguagens1 {
