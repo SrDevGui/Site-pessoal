@@ -187,7 +187,7 @@ article>h1 {
     font-family: var(--font1);
     margin-top: -3vh;
     margin-bottom: 4vh;
-    margin-left: -2vw;
+    margin-left: -3vw;
     color: var(--colorw);
     background-color: var(--color1);
     width: 89vw;
@@ -210,8 +210,8 @@ main {
     margin-top: -43vh;
     width: 90vw;
     border-radius: 10px;
-    margin-bottom: 200px;
-    height: 220vh;
+    margin-bottom: 70vh;
+    height: 280vh;
 }
 
 p.apresentacao {
@@ -229,7 +229,7 @@ article>h2 {
     font-family: var(--font1);
     margin-top: -3vh;
     margin-bottom: 4vh;
-    margin-left: -2vw;
+    margin-left: -3vw;
     color: var(--colorw);
     background-color: var(--color1);
     width: 89vw;
@@ -250,7 +250,7 @@ p.linguagens1 {
 }
 
 aside.img2 {
-    background: url(../imagens/linguagens_redimensionadas.png) no-repeat;
+    background: url("../imagens/linguagens_redimensionadas.png") no-repeat;
     background-position: center;
     background-size: contain;
     margin-top: 40px;
@@ -273,7 +273,7 @@ p.segundop {
 }
 
 p.terceirop {
-    margin-top: -2vh;
+    margin-top: 1vh;
     width: 80vw;
     height: 15vh;
     text-indent: 5px;
@@ -291,7 +291,7 @@ article>.teste p {
 }
 
 p.quartop {
-    margin-top: -112vh;
+    margin-top: -111vh;
     width: 80vw;
     height: 29vh;
     text-indent: 5px;
@@ -300,11 +300,12 @@ p.quartop {
 }
 
 p.quintop {
-    margin-top: -7vh;
+    margin-top: -1vh;
     width: 80vw;
     height: 15vh;
     text-indent: 5px;
     text-align: justify;
+    margin-bottom: 2vh;
 
 }
 
@@ -335,7 +336,7 @@ article {
 
 article>h3 {
     font-family: var(--font1);
-    margin-top: 40vh;
+    margin-top: -2vh;
     margin-bottom: 4vh;
     margin-left: -2.5vw;
     color: var(--colorw);
@@ -344,4 +345,48 @@ article>h3 {
     height: 5vh;
     text-align: center;
     border-radius: 10px;
+}
+
+article>aside.site-android {
+    background: url("../imagens/siteandroid.png") no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 29vw;
+    height: 17vh;
+    margin-top: -5vh;
+    margin-bottom: 3vh;
+    margin-left: 9vw;
+    border-radius: 18px;
+    background-color: var(--color3);
+}
+
+article>aside.site-cordel {
+    background: url("../imagens/cordelgif.gif") no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 29vw;
+    height: 17vh;
+    margin-top: -26.5vh;
+    margin-bottom: 2.5vh;
+    margin-left: 47vw;
+    border-radius: 18px;
+    background-color: var(--color3);
+}
+
+section>article>a.link-android {
+    font-family: var(--font0);
+    width: 4vw;
+    height: 4vh;
+    margin-top: 10vh;
+    margin-left: 4vw;
+    background-color: #012E40;
+}
+
+section>article>a.link-cordel {
+    font-family: var(--font0);
+    width: 4vw;
+    height: 4vh;
+    margin-top: 10vh;
+    margin-left: 46vw;
+    background-color: #012E40;
 }
