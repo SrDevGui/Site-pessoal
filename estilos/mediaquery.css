@@ -3,7 +3,7 @@
 @media screen and (min-width:481px) and (max-width: 768px) {
     main {
         margin-top: -43vh;
-
+        margin-left: 7;
     }
 
     header>h1.titulo {
@@ -105,8 +105,9 @@
     }
 
     p.terceirop {
-        margin-top: -25px;
+        margin-top: -12vh;
         width: 67vw;
+        text-align: left;
 
     }
 
@@ -133,11 +134,55 @@
         width: 14vw;
         height: 39vh;
         background-color: #BFB195;
-        margin-top: -40vh;
+        margin-top: -37vh;
         margin-bottom: 7vh;
         margin-left: 51vw;
         border-radius: 49px;
+    }
 
+    article>.teste p {
+        display: block;
+        text-align: left;
+        margin-bottom: 1vh;
+        max-width: 58vw;
+        height: 10vh;
+        color: white;
+        overflow: hidden;
+        border-right: .15em solid orange;
+        white-space: nowrap;
+        margin-left: 7.5vw;
+        margin-top: -14vh;
+        letter-spacing: .15em;
+        animation:
+            digitando 3.5s steps(40, end) 15,
+            piscar .75s step-end infinite;
+        /* Adicione um atraso de reinício */
+
+    }
+
+    @keyframes digitando {
+        from {
+            width: 0vw;
+        }
+
+        to {
+            width: 70vw;
+        }
+
+    }
+
+    @keyframes piscar {
+
+        from,
+        to {
+            border-color: transparent;
+            height: 3vh;
+        }
+
+        50% {
+            border-color: orange;
+            height: 3vh;
+        }
     }
 }
 
@@ -231,4 +276,5 @@
         width: 14vw;
         height: 12vh;
     }
+
 }

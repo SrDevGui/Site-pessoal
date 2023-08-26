@@ -1,11 +1,13 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Russo+One&display=swap');
 
 :root {
     --font0: Verdana, Geneva, Tahoma, sans-serif;
     --font1: 'Poppins';
     --font3: 'Russo One';
+    --font4: 'Poppins', sans-serif;
     --colorb: black;
     --colorw: white;
     --color0: rgba(75, 75, 197, 0.767);
@@ -14,6 +16,7 @@
     --color3: #026873;
     --color4: #BFB195;
     --color5: #F2DCC2;
+
 }
 
 /*@media screen and (min-width: 320px) and (max-width:480px) {*/
@@ -182,19 +185,20 @@ article>p {
 
 article>h1 {
     font-family: var(--font1);
-    margin-top: -15px;
-    margin-bottom: 20px;
+    margin-top: -3vh;
+    margin-bottom: 4vh;
+    margin-left: -2vw;
     color: var(--colorw);
     background-color: var(--color1);
-    width: 80vw;
+    width: 89vw;
     height: 5vh;
     text-align: center;
     border-radius: 10px;
 }
 
 section {
-    margin-top: 10px;
-    margin-bottom: 200px;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
 
 }
 
@@ -223,23 +227,26 @@ p.apresentacao {
 
 article>h2 {
     font-family: var(--font1);
-    margin-top: 92px;
-    margin-bottom: 20px;
-    width: 100vw;
+    margin-top: -3vh;
+    margin-bottom: 4vh;
+    margin-left: -2vw;
     color: var(--colorw);
     background-color: var(--color1);
-    width: 80vw;
+    width: 89vw;
     height: 5vh;
     text-align: center;
     border-radius: 10px;
 }
 
 p.linguagens1 {
-    margin-top: 3px;
+    margin-top: 3vh;
     width: 80vw;
     height: 15vh;
     margin-bottom: 10px;
     padding-bottom: 20px;
+    text-indent: 5px;
+    text-align: justify;
+    margin-left: 1vw;
 }
 
 aside.img2 {
@@ -256,28 +263,49 @@ aside#imagem2 {
 }
 
 p.segundop {
-    margin-top: -61px;
-    margin-bottom: -1px;
+    margin-top: -10vh;
+    margin-bottom: -1vh;
     width: 80vw;
     height: 21vh;
+    text-indent: 5px;
+    margin-left: 1vw;
+    text-align: justify;
 }
 
 p.terceirop {
-    margin-top: 15px;
+    margin-top: -2vh;
     width: 80vw;
     height: 15vh;
+    text-indent: 5px;
+}
+
+article>.teste p {
+    display: none;
+    margin-top: -14vh;
+    margin-left: 34vw;
+    text-indent: 2vw;
+    width: 50vw;
+    height: 10vh;
+    text-align: left;
+    flex-wrap: nowrap;
 }
 
 p.quartop {
-    margin-top: -3px;
+    margin-top: -112vh;
     width: 80vw;
     height: 29vh;
+    text-indent: 5px;
+    text-align: justify;
+
 }
 
 p.quintop {
-    margin-top: 20px;
+    margin-top: -7vh;
     width: 80vw;
     height: 15vh;
+    text-indent: 5px;
+    text-align: justify;
+
 }
 
 main>section>aside>p {
@@ -291,11 +319,29 @@ section>article>aside.perfil {
     background-position: center;
     background-size: contain;
     width: 28vw;
-    height: 37vh;
+    height: 34vh;
     background-color: #BFB195;
     margin-top: 4vh;
-    margin-bottom: -15vh;
+    margin-bottom: 6vh;
     margin-left: 27vw;
     border-radius: 44px;
 
+}
+
+article {
+    display: block;
+    margin-left: 1vw;
+}
+
+article>h3 {
+    font-family: var(--font1);
+    margin-top: 40vh;
+    margin-bottom: 4vh;
+    margin-left: -2.5vw;
+    color: var(--colorw);
+    background-color: var(--color1);
+    width: 89vw;
+    height: 5vh;
+    text-align: center;
+    border-radius: 10px;
 }
