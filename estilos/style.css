@@ -208,7 +208,7 @@ main {
     background-color: var(--color4);
     padding: 2vh;
     margin-left: 5vw;
-    margin-right: 4vw;
+    margin-right: 5vw;
     margin-top: -43vh;
     width: 90vw;
     border-radius: 10px;
@@ -263,7 +263,7 @@ aside.img2 {
 aside#imagem2 {
     width: 80vw;
     height: 40vh;
-    margin-top: -62px;
+    margin-top: -14vh;
 }
 
 p.segundop {
@@ -323,12 +323,12 @@ section>article>aside.perfil {
     background: url("../imagens/perfil.jpeg") no-repeat;
     background-position: center;
     background-size: contain;
-    width: 39vw;
+    width: 43vw;
     height: 34vh;
     background-color: #BFB195;
     margin-top: 4vh;
     margin-bottom: 6vh;
-    margin-left: 24vw;
+    margin-left: 21vw;
     border-radius: 44px;
 
 }
@@ -371,7 +371,7 @@ article>aside.site-cordel {
     width: 29vw;
     height: 17vh;
     margin-top: -22vh;
-    margin-bottom: -11.5vh;
+    margin-bottom: -11.2vh;
     margin-left: 47vw;
     border-radius: 18px;
     background-color: var(--color3);
