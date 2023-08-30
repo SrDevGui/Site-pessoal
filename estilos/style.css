@@ -19,7 +19,7 @@
 
 }
 
-/*@media screen and (min-width: 320px) and (max-width:480px) {*/
+/*@media screen and (min-width: 375px) and (max-width:480px) {*/
 * {
     width: 100vw;
     height: 100vh;
@@ -191,7 +191,7 @@ article>h1 {
     margin-right: 2vw;
     color: var(--colorw);
     background-color: var(--color1);
-    width: 89vw;
+    width: 88vw;
     height: 5vh;
     text-align: center;
     border-radius: 10px;
@@ -207,7 +207,7 @@ section {
 main {
     background-color: var(--color4);
     padding: 2vh;
-    margin-left: 4vw;
+    margin-left: 5vw;
     margin-right: 4vw;
     margin-top: -43vh;
     width: 90vw;
@@ -232,9 +232,10 @@ article>h2 {
     margin-top: -4vh;
     margin-bottom: 4vh;
     margin-left: -3.5vw;
+    margin-right: 2vw;
     color: var(--colorw);
     background-color: var(--color1);
-    width: 89vw;
+    width: 88vw;
     height: 5vh;
     text-align: center;
     border-radius: 10px;
@@ -321,12 +322,12 @@ section>article>aside.perfil {
     background: url("../imagens/perfil.jpeg") no-repeat;
     background-position: center;
     background-size: contain;
-    width: 28vw;
+    width: 39vw;
     height: 34vh;
     background-color: #BFB195;
     margin-top: 4vh;
     margin-bottom: 6vh;
-    margin-left: 27vw;
+    margin-left: 24vw;
     border-radius: 44px;
 
 }
@@ -343,7 +344,7 @@ article>h3 {
     margin-left: -3.5vw;
     color: var(--colorw);
     background-color: var(--color1);
-    width: 89vw;
+    width: 88vw;
     height: 5vh;
     text-align: center;
     border-radius: 10px;
