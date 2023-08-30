@@ -225,6 +225,7 @@ p.apresentacao {
     text-indent: 5px;
     margin-bottom: 1vh;
     padding-top: 0px;
+    display: block;
 }
 
 article>h2 {
@@ -276,7 +277,7 @@ p.segundop {
 }
 
 p.terceirop {
-    margin-top: -2vh;
+    margin-top: -4vh;
     width: 80vw;
     height: 15vh;
     text-indent: 5px;
