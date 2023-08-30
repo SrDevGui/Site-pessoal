@@ -187,13 +187,15 @@ article>h1 {
     font-family: var(--font1);
     margin-top: -3vh;
     margin-bottom: 4vh;
-    margin-left: -3vw;
+    margin-left: -3.5vw;
+    margin-right: 2vw;
     color: var(--colorw);
     background-color: var(--color1);
     width: 89vw;
     height: 5vh;
     text-align: center;
     border-radius: 10px;
+
 }
 
 section {
@@ -205,7 +207,7 @@ section {
 main {
     background-color: var(--color4);
     padding: 2vh;
-    margin-left: 5vw;
+    margin-left: 4vw;
     margin-right: 4vw;
     margin-top: -43vh;
     width: 90vw;
@@ -227,9 +229,9 @@ p.apresentacao {
 
 article>h2 {
     font-family: var(--font1);
-    margin-top: -3vh;
+    margin-top: -4vh;
     margin-bottom: 4vh;
-    margin-left: -3vw;
+    margin-left: -3.5vw;
     color: var(--colorw);
     background-color: var(--color1);
     width: 89vw;
@@ -338,7 +340,7 @@ article>h3 {
     font-family: var(--font1);
     margin-top: -2vh;
     margin-bottom: 4vh;
-    margin-left: -2.5vw;
+    margin-left: -3.5vw;
     color: var(--colorw);
     background-color: var(--color1);
     width: 89vw;
