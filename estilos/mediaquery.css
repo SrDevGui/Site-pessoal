@@ -184,6 +184,10 @@
             height: 3vh;
         }
     }
+
+    section>article>a.link-android:hover {
+        background-color: red;
+    }
 }
 
 @media screen and (min-width:1025px) {
