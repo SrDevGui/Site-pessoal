@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
+/*tablet*/
 @media screen and (min-width:481px) and (max-width: 768px) {
     main {
-        margin-top: -43vh;
+        margin-top: 0vh;
         margin-left: 7;
     }
 
@@ -12,8 +13,18 @@
         width: 68vw;
     }
 
+    article>h1 {
+        margin-left: -1.9vw;
+    }
+
     article>h2 {
-        margin-top: 51px;
+        margin-top: 5vh;
+        margin-left: -1.9vw;
+    }
+
+    article>h3 {
+        margin-left: -1.9vw;
+        margin-top: -9vh;
     }
 
     header>p.estrategia {
@@ -36,7 +47,7 @@
     }
 
     header>nav {
-        margin-top: 6.2vh;
+        margin-top: 5.2vh;
         padding-top: 0px;
     }
 
@@ -64,7 +75,20 @@
         border-radius: 44px;
 
     }
+
+    p.terceirop {
+        margin-top: -10vh;
+        margin-bottom: 5vh;
+        text-indent: 5px;
+
+    }
+
+    p.quartop {
+        margin-top: -15vh;
+    }
 }
+
+/*laptop*/
 
 @media screen and (min-width: 769px) and (max-width:1024px) {
     main {
@@ -189,6 +213,8 @@
         background-color: red;
     }
 }
+
+/*tv*/
 
 @media screen and (min-width:1025px) {
     p.apresentacao {
