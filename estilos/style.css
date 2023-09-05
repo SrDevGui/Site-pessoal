@@ -211,7 +211,7 @@ main {
     margin-top: 2vh;
     width: 90vw;
     border-radius: 10px;
-    height: 260vh;
+    height: 257vh;
 }
 
 p.apresentacao {
@@ -417,9 +417,9 @@ main>section>footer {
 }
 
 main>section>footer>p {
-    margin-top: 18vh;
+    margin-top: 23vh;
     width: 90.5vw;
-    margin-left: -2.7vw;
+    margin-left: -3.7vw;
     background-color: var(--color3);
     font-family: var(--font0);
     height: 8vh;
