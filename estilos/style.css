@@ -417,8 +417,8 @@ main>section>footer {
 }
 
 main>section>footer>p {
-    margin-top: 17vh;
-    width: 90vw;
+    margin-top: 18vh;
+    width: 90.5vw;
     margin-left: -2.7vw;
     background-color: var(--color3);
     font-family: var(--font0);

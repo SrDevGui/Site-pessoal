@@ -81,9 +81,9 @@
     }
 
     main>section>footer>p {
-        margin-top: 63.5vh;
+        margin-top: 66.5vh;
         width: 91vw;
-        margin-left: -2vw;
+        margin-left: -2.5vw;
         background-color: var(--color3);
         font-family: var(--font0);
         height: 8vh;
@@ -288,7 +288,7 @@
     }
 
     article>a>span.site-android {
-        margin-left: -46vw;
+        margin-left: -31vw;
         width: 20vw;
         height: 15vh;
     }
@@ -296,8 +296,10 @@
     section>article>a.link-android {
         width: 10vw;
         height: 4vh;
-        margin-left: 19vh;
+        margin-left: 38vh;
         padding-left: 1vw;
+        display: block;
+
     }
 
     section>article>aside.perfil {
@@ -310,7 +312,7 @@
     }
 
     article>a>span.site-cordel {
-        margin-left: 42vw;
+        margin-left: 33vw;
         width: 17vw;
         height: 15vh;
         margin-top: -25vh;
@@ -320,8 +322,8 @@
     section>article>a.link-cordel {
         width: 10vw;
         height: 4vh;
-        margin-left: 59vw;
-        padding-left: 1vw;
+        margin-left: 53.5vw;
+        padding-left: 2vw;
         margin-top: -13.1vh;
     }
 
@@ -342,7 +344,7 @@
     main>section>footer>p {
         margin-top: 39.9vh;
         width: 87.8vw;
-        margin-left: -1.7vw;
+        margin-left: -1.6vw;
         background-color: var(--color3);
         font-family: var(--font0);
         height: 8vh;
@@ -590,6 +592,18 @@
         margin-left: 10vw;
     }
 
+    header>p.estrategia {
+        width: 14vw;
+    }
+
+    header>p.responsivos {
+        width: 15vw;
+    }
+
+    header>p.bug {
+        width: 14vw;
+    }
+
     header>h1.titulo {
         font-size: 30px;
         margin-left: -6vw;
@@ -637,7 +651,7 @@
         text-indent: 5px;
         text-align: justify;
         margin-left: 2vw;
-        margin-bottom: 11vh;
+        margin-bottom: 8vh;
     }
 
     p.quartop {
@@ -688,16 +702,16 @@
     }
 
     article>a>span.site-cordel {
-        margin-left: 42vw;
+        margin-left: 27vw;
         width: 13vw;
-        height: 15vh;
-        margin-top: -26vh;
+        height: 17vh;
+        margin-top: -27vh;
     }
 
     section>article>a.link-cordel {
         width: 7vw;
         height: 4vh;
-        margin-left: 55.5vw;
+        margin-left: 47.5vw;
         padding-left: .9vw;
         margin-top: -12.9vh;
         font-size: 20px;
@@ -717,7 +731,7 @@
         display: block;
         text-align: left;
         margin-bottom: 11vh;
-        max-width: 44vw;
+        max-width: 34vw;
         height: 10vh;
         color: white;
         overflow: hidden;
@@ -764,7 +778,7 @@
     }
 
     main>section>footer>p {
-        margin-top: 70.9vh;
+        margin-top: 73.9vh;
         width: 78vw;
         margin-left: -0.9vw;
         background-color: var(--color3);
@@ -781,7 +795,7 @@
         height: 3.8vh;
         margin-top: -9vh;
         margin-bottom: 10vh;
-        margin-left: 37vw;
+        margin-left: 34vw;
     }
 
     main>section>footer>a.github {
@@ -789,7 +803,7 @@
         height: 4.2vh;
         margin-top: -14.4vh;
         margin-bottom: 10vh;
-        margin-left: 49vw;
+        margin-left: 45vw;
     }
 
 
