@@ -338,7 +338,7 @@
     }
 
     section>article>a.link-android:hover {
-        background-color: red;
+        background-color: gray;
     }
 
     main>section>footer>p {
@@ -548,7 +548,7 @@
     }
 
     section>article>a.link-android:hover {
-        background-color: red;
+        background-color: gray;
     }
 
     main>section>footer>p {
@@ -774,7 +774,11 @@
     }
 
     section>article>a.link-android:hover {
-        background-color: red;
+        background-color: gray;
+    }
+
+    section>article>a.link-cordel:hover {
+        background-color: gray;
     }
 
     main>section>footer>p {
@@ -806,5 +810,8 @@
         margin-left: 45vw;
     }
 
+    header>nav>a:hover {
+        color: var(--color3);
+    }
 
 }
