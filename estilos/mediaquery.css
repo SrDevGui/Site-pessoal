@@ -294,12 +294,54 @@
     }
 
     section>article>a.link-android {
-        width: 10vw;
-        height: 4vh;
-        margin-left: 38vh;
-        padding-left: 1vw;
-        display: block;
+        border-radius: 0px;
+        padding: 0vw 8vw;
+        background-color: #1cb621;
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        position: relative;
+        text-align: center;
+        margin-top: 10vh;
+        font-family: 'BenchNine';
+        align-items: center;
+        width: 21vw;
+        margin-left: 16vw;
+    }
 
+    section>article>a.link-android:before {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 8px;
+        top: -5px;
+        left: -5px;
+        border-top: 3px solid #1cb621;
+        border-left: 3px solid #1cb621;
+        transition: all 0.25s;
+    }
+
+    section>article>a.link-android:hover:before,
+    section>article>a.link-android:hover:after {
+        height: 100%;
+        width: 100%;
+    }
+
+    section>article>a.link-android:after {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        bottom: -5px;
+        right: -5px;
+        border-bottom: 3px solid #1cb621;
+        border-right: 3px solid #1cb621;
+        transition: all 0.25s;
+    }
+
+    section>article>a.link-android:hover {
+        color: black;
     }
 
     section>article>aside.perfil {
@@ -335,10 +377,6 @@
         margin-bottom: 11vh;
         margin-left: 63vw;
         border-radius: 46px;
-    }
-
-    section>article>a.link-android:hover {
-        background-color: gray;
     }
 
     main>section>footer>p {
@@ -470,10 +508,53 @@
     }
 
     section>article>a.link-android {
-        width: 10vw;
-        height: 4vh;
-        margin-left: 24vw;
-        padding-left: 1.5vw;
+        border-radius: 0px;
+        padding: 0vw 8vw;
+        background-color: #1cb621;
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        position: relative;
+        text-align: center;
+        margin-top: 10vh;
+        font-family: 'BenchNine';
+        align-items: center;
+        margin-left: 19.5vw;
+    }
+
+    section>article>a.link-android:before {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 8px;
+        top: -5px;
+        left: -5px;
+        border-top: 3px solid #1cb621;
+        border-left: 3px solid #1cb621;
+        transition: all 0.25s;
+    }
+
+    section>article>a.link-android:hover:before,
+    section>article>a.link-android:hover:after {
+        height: 100%;
+        width: 100%;
+    }
+
+    section>article>a.link-android:after {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        bottom: -5px;
+        right: -5px;
+        border-bottom: 3px solid #1cb621;
+        border-right: 3px solid #1cb621;
+        transition: all 0.25s;
+    }
+
+    section>article>a.link-android:hover {
+        color: black;
     }
 
     article>a>span.site-cordel {
@@ -545,10 +626,6 @@
             border-color: orange;
             height: 4vh;
         }
-    }
-
-    section>article>a.link-android:hover {
-        background-color: gray;
     }
 
     main>section>footer>p {
@@ -694,11 +771,53 @@
     }
 
     section>article>a.link-android {
-        width: 9vw;
-        height: 4vh;
-        margin-left: 21vw;
-        padding-left: 1.3vw;
+        border-radius: 0px;
+        padding: 0vw 8vw;
+        background-color: #1cb621;
+        color: white;
         font-size: 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        position: relative;
+        text-align: center;
+        margin-top: 10vh;
+        font-family: 'BenchNine';
+        align-items: center;
+
+    }
+
+    section>article>a.link-android:before {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 8px;
+        top: -5px;
+        left: -5px;
+        border-top: 3px solid #1cb621;
+        border-left: 3px solid #1cb621;
+        transition: all 0.25s;
+    }
+
+    section>article>a.link-android:hover:before,
+    section>article>a.link-android:hover:after {
+        height: 100%;
+        width: 100%;
+    }
+
+    section>article>a.link-android:after {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        bottom: -5px;
+        right: -5px;
+        border-bottom: 3px solid #1cb621;
+        border-right: 3px solid #1cb621;
+        transition: all 0.25s;
+    }
+
+    section>article>a.link-android:hover {
+        color: black;
     }
 
     article>a>span.site-cordel {
@@ -773,9 +892,7 @@
         }
     }
 
-    section>article>a.link-android:hover {
-        background-color: gray;
-    }
+
 
     section>article>a.link-cordel:hover {
         background-color: gray;
