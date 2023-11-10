@@ -6,7 +6,7 @@
 
 
 :root {
-    --font0: Verdana, Geneva, Tahoma, sans-serif;
+    --font0: Verdana, Geneva, Tahoma;
     --font1: 'Poppins';
     --font3: 'Russo One';
     --font4: 'Poppins', sans-serif;
@@ -209,12 +209,12 @@ section {
 main {
     background-color: var(--color4);
     padding: 2vh;
-    margin-left: 5vw;
+    margin-left: 4vw;
     margin-right: 5vw;
     margin-top: 2vh;
     width: 90vw;
     border-radius: 10px;
-    height: 257vh;
+    height: 272vh;
 }
 
 p.apresentacao {
@@ -363,7 +363,7 @@ article>a.site-android {
 
 section>article>a.link-android {
     font-family: var(--font1);
-    width: 20vw;
+    width: 84px;
     height: 4vh;
     margin-top: 9vh;
     margin-left: 15vw;
@@ -371,10 +371,9 @@ section>article>a.link-android {
     text-decoration: none;
     border-radius: 8px;
     color: var(--colorw);
-    padding-left: 2.1vw;
     font-size: 1em;
     margin-right: 30vw;
-    padding-bottom: 5vh;
+    padding-bottom: 4vh;
     margin-bottom: 5vh;
     display: flex;
     padding-left: 2vw;
@@ -387,7 +386,7 @@ article>a.site-cordel {
     background-size: contain;
     width: 29vw;
     height: 17vh;
-    margin-top: -27.9vh;
+    margin-top: -26.5vh;
     margin-bottom: 12.8vh;
     margin-left: 47vw;
     border-radius: 18px;
@@ -414,6 +413,75 @@ section>article>a.link-cordel {
 
 }
 
+section>article>a.tabuada {
+    background: url("../imagens/calculadora.png") no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25vw;
+    height: 14vh;
+    margin-top: 2.5vh;
+    margin-bottom: -14.2vh;
+    margin-left: 12vw;
+    border-radius: 18px;
+    background-color: var(--color3);
+    display: inline-block;
+    overflow: hidden;
+}
+
+section>article>a.link-tabuada {
+    font-family: var(--font1);
+    width: 84px;
+    height: 7vh;
+    margin-top: 14.5vh;
+    margin-left: 14vw;
+    padding-top: 0vh;
+    margin-bottom: -24vh;
+    /* padding-bottom: 1vh; */
+    text-align: center;
+    background-color: #024959;
+    text-decoration: none;
+    border-radius: 9px;
+    color: var(--colorw);
+    padding-left: 2.1vw;
+    font-size: 14px;
+    margin-right: 30vw;
+    display: flex;
+}
+
+section>article>a.link-contador {
+    font-family: var(--font1);
+    width: 84px;
+    height: 7vh;
+    margin-top: 10.2vh;
+    margin-left: 51vw;
+    padding-top: 0vh;
+    margin-bottom: -9vh;
+    /* padding-bottom: 1vh; */
+    text-align: center;
+    background-color: var(--color2);
+    text-decoration: none;
+    border-radius: 9px;
+    color: var(--colorw);
+    padding-left: 2.1vw;
+    font-size: 14px;
+    margin-right: 30vw;
+    display: flex;
+}
+
+section>article>a.contador {
+    background: url("../imagens/contador.png") no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25vw;
+    height: 14vh;
+    margin-top: 1.9vh;
+    margin-bottom: -10vh;
+    margin-left: 49vw;
+    border-radius: 18px;
+    background-color: var(--color3);
+    display: inline-block;
+    overflow: hidden;
+}
 
 main>section>footer {
     margin-top: .5vh;
@@ -455,4 +523,10 @@ main>section>footer>a.github {
     margin-top: -15.9vh;
     margin-bottom: 10vh;
     margin-left: 48vw;
+}
+
+section>article>img#mago {
+    display: none;
+    overflow: hidden;
+
 }
